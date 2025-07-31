@@ -1,19 +1,22 @@
-# Retroid Pocket Classic Compendium (RPCC)
+# Retroid Pocket Classic Compendium 📓
 
-It is no secret that I am addicted to retro gaming handhelds.
+It is no secret that I am *addicted* to retro gaming handhelds.
 
-I wanted to capture things that I have set up on my Retroid Pocket Classic and share them here.
+I wanted a place to capture things about my Retroid Pocket Classic setup.
 
-I don't claim to be an expert and will likely have done something stupid / wrong.
+I don't claim to be an expert and will likely have done something stupid or wrong.
 
 For more detail from an actual expert, go check out [Retro Game Corps'](https://retrogamecorps.com) guides and videos.
+
 If it exists, Russ has a video for it.
 
-With that in mind, here goes nothing.
+*With that in mind, here goes nothing!*
+
+❤️
 
 ---
 
-## Getting Started
+## Wrangling the Apps 🐂➰🤠
 
 After the initial Retroid-provided setup, I installed the following:
 
@@ -27,7 +30,7 @@ After the initial Retroid-provided setup, I installed the following:
 
 ---
 
-## High-Level RetroArch Configuration
+## High-Level RetroArch Configuration ⚙️
 
 ### Emulator Cores
 
@@ -53,64 +56,65 @@ Notes included when for sections when spelling out the value of every setting is
 
 If a setting is not listed, a safe assumption is I am using the default.
 
-#### User Interface
+### User Interface
 
 - Menu Driver: glui
-
-
 - On-Screen Notifications
     - Notification Visibility (Everything Off Except For)
         - Input (Autoconfig) Failure Notifications
         - Save State Notifications
         - Screenshot Notifications
-
-
 - On-Screen Overlay
     - Display Overlay: Off
 
+---
 
-- Video
-    - Output
-        - Video Driver: Vulkan
-    - Scaling
-        - Integer Scaling: On
-        - Aspect Ratio: Core Provided
-    - Synchronization
-        - V-Sync: On
+### Video
+- Output
+    - Video Driver: Vulkan
+- Scaling
+    - Integer Scaling: On
+    - Aspect Ratio: Core Provided
+- Synchronization
+    - V-Sync: On
 
+---
 
-- Audio
-    - Output
-        - Resampler Quality: Highest
-    - Menu Sounds (All Off)
+### Audio
+- Output
+    - Resampler Quality: Highest
+- Menu Sounds (All Off)
 
+---
 
-- Input
-    - RetroPad Binds
-        - Port 1 Controls
-            - Start Button: Button 109 (Top Button, defaults as Select)
-                - I like the Start Button on top. Sue me.
-            - Select Button: Button 108 (Bottom Button, defaults as Start)
-    - Hotkeys
-        - Hotkey Enable: Select [Button 108] (Button Button that defaults as Start)
-        - Menu Toggle: Back Button [Button 4]
-        - Quit (Controller Combo): Start + Select
-        - Fast-Forward (Toggle): R1 [Button 103]
-        - Rewind: L1 [Button 102]
-        - Load State: L2 [Button 104]
-        - Save State: R2 [Button 105]
-        - Show FPS (Toggle): X [Button 99]
-    - Menu Controls
-        - Menu Swap OK and Cancel Buttons: Off (Japan style. A = Select / Confirm, B = Back)
+### Input
+- RetroPad Binds
+    - Port 1 Controls
+        - Start Button: Button 109 (Top Button, defaults as Select)
+            - I like the Start Button on top. Sue me.
+        - Select Button: Button 108 (Bottom Button, defaults as Start)
+- Hotkeys
+    - Hotkey Enable: Select [Button 108] (Button Button that defaults as Start)
+    - Menu Toggle: Back Button [Button 4]
+    - Quit (Controller Combo): Start + Select
+    - Fast-Forward (Toggle): R1 [Button 103]
+    - Rewind: L1 [Button 102]
+    - Load State: L2 [Button 104]
+    - Save State: R2 [Button 105]
+    - Show FPS (Toggle): X [Button 99]
+- Menu Controls
+    - Menu Swap OK and Cancel Buttons: Off (Japan style. A = Select / Confirm, B = Back)
 
-- Saving
-    - Sort Saves into Folders by Core Name: Off
-    - Sort Save States into Folders by Core Name: Off
-    - Sort Save into Folders by Content Directory: On
-    - Sort Save States into Folders by Content Directory: On
-    - SaveRAM compression: On
-    - Auto Save State: On
-    - Auto Load State: On
+---
+
+### Saving
+- Sort Saves into Folders by Core Name: Off
+- Sort Save States into Folders by Core Name: Off
+- Sort Save into Folders by Content Directory: On
+- Sort Save States into Folders by Content Directory: On
+- SaveRAM compression: On
+- Auto Save State: On
+- Auto Load State: On
 
 ```
 Saving Notes
@@ -121,14 +125,18 @@ Auto Save / Load allows you to quit Start + Select and not worry about making a 
 RA will load this state when opening the content back up. Seamless!
 ```
 
-- Configuration
-    - Save Configuration on Quit: On
-    - Save Remap Files on Quit: On
+---
 
-- Directory
-    - System/BIOS: `SD_CARD/BIOS`
-    - Save Files: `SD_CARD/Saves`
-    - Save States: `SD_CARD/Save States`
+### Configuration
+- Save Configuration on Quit: On
+- Save Remap Files on Quit: On
+
+---
+
+### Directory
+- System/BIOS: `SD_CARD/BIOS`
+- Save Files: `SD_CARD/Saves`
+- Save States: `SD_CARD/Save States`
 
 ```
 Directory Notes
@@ -136,3 +144,4 @@ Directory Notes
 This again is to NextUI-ify this Android setup. I also have ES-DE pointed at SD_CARD/ROMs for games.
 ```
       
+---
