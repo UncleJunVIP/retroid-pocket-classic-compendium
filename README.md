@@ -31,9 +31,9 @@ After the initial Retroid-provided setup, I installed the following:
 
 ---
 
-## High-Level RetroArch Configuration ⚙️
+## RetroArch Configuration ⚙️
 
-### Emulator Cores
+### Installed Emulator Cores
 
 - Game Boy / Color (Gambatte)
 - Game Boy Advance (mGBA)
@@ -47,6 +47,8 @@ RGC's [RetroArch Starter Guide](https://retrogamecorps.com/2022/02/28/retroarch-
 
 Why only these systems? This is what I play. I'm a simple man.
 
+---
+
 ### Global RetroArch Settings
 
 These settings will be displayed as nested lists. The nesting follows the navigational hierarchy.
@@ -57,7 +59,7 @@ Notes included when for sections when spelling out the value of every setting is
 
 If a setting is not listed, a safe assumption is I am using the default.
 
-### User Interface
+#### User Interface
 
 - Menu Driver: glui
 - On-Screen Notifications
@@ -70,7 +72,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 
 ---
 
-### Video
+#### Video
 
 - Output
     - Video Driver: Vulkan
@@ -82,7 +84,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 
 ---
 
-### Audio
+#### Audio
 
 - Output
     - Resampler Quality: Highest
@@ -90,7 +92,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 
 ---
 
-### Input
+#### Input
 
 - RetroPad Binds
     - Port 1 Controls
@@ -98,7 +100,7 @@ If a setting is not listed, a safe assumption is I am using the default.
             - I like the Start Button on top. Sue me.
         - Select Button: Button 108 (Bottom Button, defaults as Start)
 - Hotkeys
-    - Hotkey Enable: Select [Button 108] (Button Button that defaults as Start)
+    - Hotkey Enable: Select [Button 108] (Bottom Button that defaults as Start)
     - Menu Toggle: Back Button [Button 4]
     - Quit (Controller Combo): Start + Select
     - Fast-Forward (Toggle): R1 [Button 103]
@@ -111,7 +113,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 
 ---
 
-### Saving
+#### Saving
 
 - Sort Saves into Folders by Core Name: Off
 - Sort Save States into Folders by Core Name: Off
@@ -132,14 +134,14 @@ A save state will be made on quit and loaded on start. Seamless!
 
 ---
 
-### Configuration
+#### Configuration
 
 - Save Configuration on Quit: On
 - Save Remap Files on Quit: On
 
 ---
 
-### Directory
+#### Directory
 
 - System/BIOS: `SD_CARD/BIOS`
 - Save Files: `SD_CARD/Saves`
@@ -154,14 +156,39 @@ I also have ES-DE pointed at SD_CARD/ROMs for games.
 
 ---
 
+### Emulator Specific Settings
+
+For these configurations, make use of the `Save Content Directory Overrides` to apply to all games for a system.
+
+#### Game Boy / Game Boy Color (Gambatte)
+
+##### Core Options
+
+- GB Colorization: Internal
+- Internal Palette: DMG
+- Interframe Blending: LCD Ghosting (Accurate)
+
+##### Scaling
+
+- Integer Scaling: Off
+- Aspect Ratio: Core provided
+
+##### Shaders
+
+- Video Shaders: On
+- Load Preset
+    - Shaders Slang
+        - Handheld
+            - lcd3x
+
 ## ES-DE Configuration
 
-## System Name Customization (es_systems.xml)
+### System Name Customization (es_systems.xml)
 
 ✨ *To perform any of these changes, you will need a copy of
 [es_systems.xml](https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/android/es_systems.xml)* ✨
 
-### Renaming Systems
+#### Renaming Systems
 
 To rename a system, simply change the value of the `<fullname>` tag for the corresponding `<system>`.
 
