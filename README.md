@@ -183,7 +183,7 @@ For these configurations, make use of the `Save Content Directory Overrides` to 
 
 ## ES-DE Configuration
 
-### System Name Customization (es_systems.xml)
+### System Name Customization
 
 ✨ *To perform any of these changes, you will need a copy of
 [es_systems.xml](https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/android/es_systems.xml)* ✨
@@ -194,7 +194,7 @@ To rename a system, simply change the value of the `<fullname>` tag for the corr
 
 ---
 
-### Change System Display Order
+#### Change System Display Order
 
 Use the following snippet as an example to edit your `es_systems.xml` file.
 
