@@ -70,6 +70,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 ---
 
 ### Video
+
 - Output
     - Video Driver: Vulkan
 - Scaling
@@ -81,6 +82,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 ---
 
 ### Audio
+
 - Output
     - Resampler Quality: Highest
 - Menu Sounds (All Off)
@@ -88,6 +90,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 ---
 
 ### Input
+
 - RetroPad Binds
     - Port 1 Controls
         - Start Button: Button 109 (Top Button, defaults as Select)
@@ -108,6 +111,7 @@ If a setting is not listed, a safe assumption is I am using the default.
 ---
 
 ### Saving
+
 - Sort Saves into Folders by Core Name: Off
 - Sort Save States into Folders by Core Name: Off
 - Sort Save into Folders by Content Directory: On
@@ -121,19 +125,21 @@ Saving Notes
 
 These first four options make it so RetroArch behaves like my beloved NextUI (MinUI).
 
-Auto Save / Load allows you to quit Start + Select and not worry about making a save state. 
-RA will load this state when opening the content back up. Seamless!
+Auto Save / Load allows you to quit with Start + Select and not worry! 
+A save state will be made on quit and loaded on start. Seamless!
 ```
 
 ---
 
 ### Configuration
+
 - Save Configuration on Quit: On
 - Save Remap Files on Quit: On
 
 ---
 
 ### Directory
+
 - System/BIOS: `SD_CARD/BIOS`
 - Save Files: `SD_CARD/Saves`
 - Save States: `SD_CARD/Save States`
@@ -141,7 +147,8 @@ RA will load this state when opening the content back up. Seamless!
 ```
 Directory Notes
 
-This again is to NextUI-ify this Android setup. I also have ES-DE pointed at SD_CARD/ROMs for games.
+This again is to NextUI-ify this Android setup. 
+I also have ES-DE pointed at SD_CARD/ROMs for games.
 ```
-      
+
 ---
