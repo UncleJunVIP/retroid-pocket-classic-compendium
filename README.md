@@ -22,7 +22,8 @@ After the initial Retroid-provided setup, I installed the following:
 
 1. [Emulation Station Desktop Edition](https://es-de.org) (paid, but extremely reasonable)
 2. [Obtainium](https://github.com/ImranR98/Obtainium)
-3. [RetroArch (AArch64) Nightly Config](https://apps.obtainium.imranr.dev) (use the filter function)
+3. [RetroArch (AArch64) Nightly Config](https://apps.obtainium.imranr.dev) via Obtainium App Configuration
+    - use the filter function to find the RetroArch configuration
 4. [F-Droid](https://f-droid.org/en/)
 5. [Primitive FTPd](https://f-droid.org/en/packages/org.primftpd/) via F-Droid
 6. [Tailscale](https://f-droid.org/en/packages/com.tailscale.ipn/) via F-Droid
