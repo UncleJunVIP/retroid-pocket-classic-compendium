@@ -20,14 +20,15 @@ If it exists, Russ has a video for it.
 
 After the initial Retroid-provided setup, I installed the following:
 
-1. [Emulation Station Desktop Edition](https://es-de.org) (paid, but extremely reasonable)
+1. [Emulation Station Desktop Edition](https://es-de.org) (ES-DE), paid, but extremely reasonable (~$5)
 2. [Obtainium](https://github.com/ImranR98/Obtainium)
 3. [RetroArch (AArch64) Nightly Config](https://apps.obtainium.imranr.dev) via Obtainium App Configuration
     - use the filter function to find the RetroArch configuration
 4. [F-Droid](https://f-droid.org/en/)
-5. [Primitive FTPd](https://f-droid.org/en/packages/org.primftpd/) via F-Droid
-6. [Tailscale](https://f-droid.org/en/packages/com.tailscale.ipn/) via F-Droid
-7. [Aurora Store](https://f-droid.org/en/packages/com.aurora.store/) via F-Droid
+5. [Aurora Store](https://f-droid.org/en/packages/com.aurora.store/) via F-Droid
+6. [Primitive FTPd](https://f-droid.org/en/packages/org.primftpd/) via F-Droid
+7. [LocalSend](https://f-droid.org/en/packages/org.localsend.localsend_app/) via F-Droid
+8. [Tailscale](https://f-droid.org/en/packages/com.tailscale.ipn/) via F-Droid
 
 ---
 
@@ -223,6 +224,40 @@ Bueno's overlays are vendored here for completeness.
 
 ---
 
+#### Nintendo Entertainment System (Nestopia)
+
+##### Video -> Scaling
+
+- Integer Scaling: Off
+- Aspect Ratio: Full (The RPC's aspect ratio is close enough)
+
+##### Shaders
+
+- Video Shaders: On
+- Load Preset
+    - Shaders Slang
+        - CRT
+            - newpixie-crt.slang
+
+---
+
+#### PlayStation (SwanStation)
+
+##### Video -> Scaling
+
+- Integer Scaling: Off
+- Aspect Ratio: Full (The RPC's aspect ratio is close enough)
+
+##### Shaders
+
+- Video Shaders: On
+- Load Preset
+    - Shaders Slang
+        - CRT
+            - newpixie-crt.slang
+
+---
+
 ## ES-DE Configuration
 
 ### System Name Customization
@@ -276,3 +311,4 @@ I went with this naming scheme of `Platform Order - My Initials`. Use whatever m
 
 To make sure ES-DE uses your custom ordering, be sure to set `Systems Sorting` to `Full Names or Custom` under
 `UI Settings`.
+
