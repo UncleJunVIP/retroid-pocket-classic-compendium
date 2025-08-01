@@ -36,7 +36,7 @@ After the initial Retroid-provided setup, I installed the following:
 ### Installed Emulator Cores
 
 - Game Boy / Color (Gambatte)
-- Game Boy Advance (mGBA)
+- Game Boy Advance (gpSP / mGBA)
 - Nintendo Entertainment System (Nestopia)
 - Super Nintendo Entertainment System (Snes9x)
 - Sega Genesis (Genesis Plus GX)
@@ -143,15 +143,21 @@ A save state will be made on quit and loaded on start. Seamless!
 
 #### Directory
 
-- System/BIOS: `SD_CARD/BIOS`
-- Save Files: `SD_CARD/Saves`
-- Save States: `SD_CARD/Save States`
+- System/BIOS: `SD_CARD/Emulation/BIOS`
+- Save Files: `SD_CARD/Emulation/Saves`
+- Save States: `SD_CARD/Emulation/Save States`
+- Overlays: `SD_CARD/Emulation/Overlays`
 
 ```
 Directory Notes
 
 This again is to NextUI-ify this Android setup. 
-I also have ES-DE pointed at SD_CARD/ROMs for games.
+I also have ES-DE pointed at SD_CARD/Emulation/ROMs for games.
+
+Why are all these directories under Emulation? Good question!
+
+Android is silly with file permissions for non-rooted devices. 
+This scheme allows you to expose your content via Primitive FTPd.
 ```
 
 ---
@@ -168,7 +174,7 @@ For these configurations, make use of the `Save Content Directory Overrides` to 
 - Internal Palette: DMG
 - Interframe Blending: LCD Ghosting (Accurate)
 
-##### Scaling
+##### Video -> Scaling
 
 - Integer Scaling: Off
 - Aspect Ratio: Core provided
@@ -180,6 +186,40 @@ For these configurations, make use of the `Save Content Directory Overrides` to 
     - Shaders Slang
         - Handheld
             - lcd3x
+
+#### Game Boy Advance (gpSP / mGBA)
+
+##### Core Options
+
+- Color Correction: On
+- Interframe Blending: On
+
+##### Video -> Scaling
+
+- Integer Scaling: On
+- Aspect Ratio: Core provided
+
+##### Shaders
+
+- Video Shaders: On
+- Load Preset
+    - Shaders Slang
+        - Handheld
+            - lcd3x
+
+##### On-Screen Overlay
+
+- Display Overlay: On
+- Autoload Preferred Overlay: On
+- Overlay
+  Preset: [gba-retroid-classic-integer-scale-rainbow](https://github.com/timbueno/retroid-pocket-classic-overlays/blob/main/retroid-classic-gba-overlays/gba-retroid-classic-integer-scale-rainbow.png)
+    - Thanks, [@timbueno](https://github.com/timbueno)!
+
+```
+Bueno's overlays are vendored here for completeness.
+```
+
+---
 
 ## ES-DE Configuration
 
