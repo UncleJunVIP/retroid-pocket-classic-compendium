@@ -9,5 +9,5 @@ github:
     path: "/"
   repository_url: "https://github.com/UncleJunVIP/retroid-pocket-classic-compendium"
 
-title: Retroid Pocket Classic Compendium
+name: Retroid Pocket Classic Compendium
 description: "A distilled, opinionated look at the RPC."
