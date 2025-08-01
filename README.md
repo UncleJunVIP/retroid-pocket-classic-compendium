@@ -187,6 +187,8 @@ For these configurations, make use of the `Save Content Directory Overrides` to 
         - Handheld
             - lcd3x
 
+---
+
 #### Game Boy Advance (gpSP / mGBA)
 
 ##### Core Options
