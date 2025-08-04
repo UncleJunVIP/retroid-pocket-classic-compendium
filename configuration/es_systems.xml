@@ -104,7 +104,7 @@
     </system>
     <system>
         <name>androidgames</name>
-        <fullname>Android Games</fullname>
+        <fullname>Ports</fullname>
         <path>%ROMPATH%/androidgames</path>
         <extension>.app .APP</extension>
         <command label="Android Game">%ANDROIDAPP%=%FILEINJECT%</command>

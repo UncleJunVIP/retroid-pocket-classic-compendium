@@ -1,0 +1,20 @@
+[project]
+name = "retroid-pocket-classic-compendium"
+version = "1.0.0"
+description = "An opinionated guide to setting up the Retroid Pocket Classic"
+authors = [
+    {name = "Brandon T. Kowalski",email = "brandon@kowalski.io"}
+]
+license = {text = "CC0 1.0 Universal"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-material (>=9.6.16,<10.0.0)",
+    "mkdocs-macros-plugin (>=1.3.7,<2.0.0)",
+    "mkdocs-minify-plugin (>=0.8.0,<0.9.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

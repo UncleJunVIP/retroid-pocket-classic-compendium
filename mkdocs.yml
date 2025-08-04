@@ -1,0 +1,73 @@
+site_name: Retroid Pocket Classic Compendium
+site_url: https://unclejun.vip/retroid-pocket-classic-compendium/
+repo_url: https://github.com/UncleJunVIP/retroid-pocket-classic-compendium
+edit_uri: https://github.com/UncleJunVIP/retroid-pocket-classic-compendium/edit/main/docs/
+repo_name: UncleJunVIP/retroid-pocket-classic-compendium
+copyright: CC0 1.0 Universal
+
+theme:
+  name: material
+  font:
+    text: Raleway
+    code: Fira Code
+  icon:
+    admonition:
+      warning: octicons/alert-24
+      info: octicons/info-24
+      example: octicons/sparkles-fill-24
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: rpcc-wiki-light
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: prcc-wiki-dark
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.action.edit
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+extra_css:
+  - _inc/css/custom.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      toc_depth: 3
+      permalink: 🔗
+
+plugins:
+  - search
+  - macros
+
+nav:
+  - Introduction: index.md
+  - The Apps: apps.md
+  - Configuring RetroArch: retroarch.md
+  - Configuring ES-DE: esde.md
