@@ -16,13 +16,13 @@ Hopefully, you find some helpful tips and can use them to make the RPC your own.
 
 ---
 
-## The Disclaimer
+## Disclaimer
 
-I don't claim to be an expert and will likely have done something stupid or wrong.
+I am not an expert, nor would I ever claim to be!
+
+Some of my preferences might seem stupid or wrong.
 
 For more detail from an actual expert, go check out [Retro Game Corps'](https://retrogamecorps.com) guides and videos.
-
-If it exists, Russ has a video for it.
 
 *With that in mind, here goes nothing!*
 
