@@ -8,8 +8,9 @@ After unboxing and following the initial Retroid-provided setup, I installed the
     - use the filter function to find the RetroArch configuration
 4. [F-Droid](https://f-droid.org/en/)
 5. [Primitive FTPd](https://f-droid.org/en/packages/org.primftpd/) via F-Droid
-6. [Tailscale](https://f-droid.org/en/packages/com.tailscale.ipn/) via F-Droid
-7. [Apple Music](https://play.google.com/store/apps/details?id=com.apple.android.music) via Play Store
+6. [LocalSend](https://f-droid.org/en/packages/org.localsend.localsend_app/) via F-Droid
+7. [Tailscale](https://f-droid.org/en/packages/com.tailscale.ipn/) via F-Droid
+8. [Apple Music](https://play.google.com/store/apps/details?id=com.apple.android.music) via Play Store
 
 ---
 
@@ -24,8 +25,10 @@ After unboxing and following the initial Retroid-provided setup, I installed the
 4. **F-Droid:** is an alternative to the Play Store and is the source for a bunch of great apps in this list.
 5. **Primitive FTPd:** is a lightweight and free SFTP server. Useful for getting files to the device without removing
    the SD Card.
-6. **Tailscale:** is a godsend for those that dabble with self-hosted stuff. Tailscale is a software-defined, mesh,
+6. **LocalSend:** is a cross-platform utility for sending files to devices on the same network. Very reminiscent to
+   Apple's `AirDrop` but available on nearly every platform.
+7. **Tailscale:** is a godsend for those that dabble with self-hosted stuff. Tailscale is a software-defined, mesh,
    virtual private network. Put simply, any device connected to a shared Tailnet (Tailscale Network) can communicate to
    with one another without exposing the device to the public internet. This allows me to
    access [RomM](https://romm.app) from my RPC.
-7. **Apple Music:** is self-explanatory. I use a lot of Apple products so this is really convenient.
+8. **Apple Music:** is self-explanatory. I use a lot of Apple products so this is really convenient.
