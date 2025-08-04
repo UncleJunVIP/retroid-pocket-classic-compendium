@@ -16,18 +16,8 @@ theme:
       info: octicons/info-24
       example: octicons/sparkles-fill-24
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: rpcc-wiki-light
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: prcc-wiki-dark
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    primary: teal
+    scheme: default
   features:
     - content.action.edit
     - content.code.copy

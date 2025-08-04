@@ -100,16 +100,21 @@ If a setting is not listed, a safe assumption is I am using the default.
 
 ### Hotkeys
 
-| Function                | Button                   |
-|-------------------------|--------------------------|
-| Hotkey Enable           | Select `[Button 108]`    |
-| Menu Toggle             | Back Button `[Button 4]` |
-| Quit (Controller Combo) | Start + Select           |
-| Fast-Forward (Toggle)   | R1 `[Button 103]`        |
-| Rewind                  | L1 `[Button 102]`        |
-| Load State              | L2 `[Button 104]`        |
-| Save State              | R2 `[Button 105]`        |
-| Show FPS (Toggle)       | X `[Button 99]`          |
+| Function                | Button                     |
+|-------------------------|----------------------------|
+| Hotkey Enable           | Select `[Button 108]`      |
+| Menu Toggle             | Back Button `[Button 4]`   |
+| Quit (Controller Combo) | Start + Select             |
+| Fast-Forward (Toggle)   | R1 `[Button 103]`          |
+| Rewind                  | L1 `[Button 102]`          |
+| Audio Mute              | D-Pad Down `[Hat #0 Down]` |
+| Load State              | L2 `[Button 104]`          |
+| Save State              | R2 `[Button 105]`          |
+| Show FPS (Toggle)       | X `[Button 99]`            |
+
+!!! question "Why bind `Audio Mute`?"
+
+    As mentioned earlier, I installed `Apple Music`. If I want to game and jam out to tunes this hotkey will mute *only* the emulation sound.
 
 ---
 

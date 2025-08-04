@@ -1,4 +1,4 @@
-## Well, hello there! 👋🏻
+## Hello there!
 
 My name is Brandon, and I am *addicted* to retro gaming handhelds.
 
