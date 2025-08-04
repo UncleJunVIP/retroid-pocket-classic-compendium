@@ -1,5 +1,5 @@
-p {
-    color: #000;
+p, h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
 }
 
 .md-typeset h1, .md-typeset h2, .md-typeset h3 {
