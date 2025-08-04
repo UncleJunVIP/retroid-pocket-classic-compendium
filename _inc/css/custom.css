@@ -1,0 +1,41 @@
+p, h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+    font-weight: 700;
+}
+
+.md-typeset h1 {
+    margin: 0 0 0.64em;
+}
+
+.md-typeset h2 {
+    margin: 1em 0 0.64em;
+}
+
+.md-typeset h3 {
+    margin: 0.64em 0 0.8em;
+}
+
+.md-header__inner {
+    padding: 0.4rem 0.2rem;
+}
+
+.md-main__inner {
+    margin-top: 0.5rem;
+    padding-top: 0;
+}
+
+.md-typeset table:not([class]) {
+    font-size: .74rem;
+}
+
+.md-typeset .admonition, .md-typeset details {
+    background-color: inherit;
+    color: inherit
+}
+
+a {
+    font-weight: bold;
+}

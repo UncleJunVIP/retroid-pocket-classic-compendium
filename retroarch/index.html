@@ -1,0 +1,1598 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://unclejun.vip/retroid-pocket-classic-compendium/retroarch/">
+      
+      
+        <link rel="prev" href="../apps/">
+      
+      
+        <link rel="next" href="../esde/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Configuring RetroArch - Retroid Pocket Classic Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M13%2017.5a1%201%200%201%201-2%200%201%201%200%200%201%202%200m-.25-8.25a.75.75%200%200%200-1.5%200v4.5a.75.75%200%200%200%201.5%200z%22/%3E%3Cpath%20d%3D%22M9.836%203.244c.963-1.665%203.365-1.665%204.328%200l8.967%2015.504c.963%201.667-.24%203.752-2.165%203.752H3.034c-1.926%200-3.128-2.085-2.165-3.752Zm3.03.751a1.002%201.002%200%200%200-1.732%200L2.168%2019.499A1.002%201.002%200%200%200%203.034%2021h17.932a1.002%201.002%200%200%200%20.866-1.5L12.866%203.994Z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M13%207.5a1%201%200%201%201-2%200%201%201%200%200%201%202%200m-3%203.75a.75.75%200%200%201%20.75-.75h1.5a.75.75%200%200%201%20.75.75v4.25h.75a.75.75%200%200%201%200%201.5h-3a.75.75%200%200%201%200-1.5h.75V12h-.75a.75.75%200%200%201-.75-.75%22/%3E%3Cpath%20d%3D%22M12%201c6.075%200%2011%204.925%2011%2011s-4.925%2011-11%2011S1%2018.075%201%2012%205.925%201%2012%201M2.5%2012a9.5%209.5%200%200%200%209.5%209.5%209.5%209.5%200%200%200%209.5-9.5A9.5%209.5%200%200%200%2012%202.5%209.5%209.5%200%200%200%202.5%2012%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14.4%203.419a.639.639%200%200%201%201.2%200l.61%201.668a9.59%209.59%200%200%200%205.703%205.703l1.668.61a.639.639%200%200%201%200%201.2l-1.668.61a9.59%209.59%200%200%200-5.703%205.703l-.61%201.668a.639.639%200%200%201-1.2%200l-.61-1.668a9.59%209.59%200%200%200-5.703-5.703l-1.668-.61a.639.639%200%200%201%200-1.2l1.668-.61a9.59%209.59%200%200%200%205.703-5.703zM8%2016.675a.266.266%200%200%201%20.5%200l.254.694a4%204%200%200%200%202.376%202.377l.695.254a.266.266%200%200%201%200%20.5l-.695.254a4%204%200%200%200-2.376%202.377l-.254.694a.266.266%200%200%201-.5%200l-.254-.694a4%204%200%200%200-2.376-2.377l-.695-.254a.266.266%200%200%201%200-.5l.695-.254a4%204%200%200%200%202.376-2.377zM4.2.21a.32.32%200%200%201%20.6%200l.305.833a4.8%204.8%200%200%200%202.852%202.852l.833.305a.32.32%200%200%201%200%20.6l-.833.305a4.8%204.8%200%200%200-2.852%202.852L4.8%208.79a.32.32%200%200%201-.6%200l-.305-.833a4.8%204.8%200%200%200-2.852-2.852L.21%204.8a.32.32%200%200%201%200-.6l.833-.305a4.8%204.8%200%200%200%202.852-2.852z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Raleway";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../_inc/css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#update-all-the-things" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Retroid Pocket Classic Compendium" class="md-header__button md-logo" aria-label="Retroid Pocket Classic Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Retroid Pocket Classic Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configuring RetroArch
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UncleJunVIP/retroid-pocket-classic-compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    UncleJunVIP/retroid-pocket-classic-compendium
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../apps/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  The Apps
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Configuring RetroArch
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../esde/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Configuring ES-DE
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../gallery/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gallery
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Retroid Pocket Classic Compendium" class="md-nav__button md-logo" aria-label="Retroid Pocket Classic Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Retroid Pocket Classic Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UncleJunVIP/retroid-pocket-classic-compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    UncleJunVIP/retroid-pocket-classic-compendium
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Apps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Configuring RetroArch
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuring RetroArch
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#update-all-the-things" class="md-nav__link">
+    <span class="md-ellipsis">
+      Update all the things!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emulator-cores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emulator Cores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#global-retroarch-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global RetroArch Settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Interface
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notification-visibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notification Visibility
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Audio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#input" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Input">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retropad-binds-port-1-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      RetroPad Binds - Port 1 Controls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hotkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hotkeys
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menu-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Menu Controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saving" class="md-nav__link">
+    <span class="md-ellipsis">
+      Saving
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Directory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-boy-game-boy-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game Boy / Game Boy Color
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Boy / Game Boy Color">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video-scaling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video Scaling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shaders" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shaders
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-boy-advance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game Boy Advance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Boy Advance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-options_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video-scaling_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video Scaling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shaders_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shaders
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#on-screen-overlay" class="md-nav__link">
+    <span class="md-ellipsis">
+      On-Screen Overlay
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nintendo-entertainment-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nintendo Entertainment System
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nintendo Entertainment System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-scaling_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video Scaling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shaders_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shaders
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#super-nintendo-entertainment-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Super Nintendo Entertainment System
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Super Nintendo Entertainment System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-scaling_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video Scaling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shaders_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shaders
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sega-genesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sega Genesis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sega Genesis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-scaling_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video Scaling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shaders_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shaders
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playstation" class="md-nav__link">
+    <span class="md-ellipsis">
+      PlayStation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PlayStation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-scaling_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Video Scaling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shaders_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shaders
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../esde/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuring ES-DE
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gallery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/UncleJunVIP/retroid-pocket-classic-compendium/edit/main/docs/retroarch.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>Configuring RetroArch</h1>
+
+<h2 id="update-all-the-things">Update all the things!<a class="headerlink" href="#update-all-the-things" title="Permanent link">🔗</a></h2>
+<p>From the RetroArch main menu, navigate to <code>Online Updater</code>.</p>
+<p>Find each of the following and select them to make sure everything is up to date.</p>
+<ul>
+<li>Update Core Info Files</li>
+<li>Update Assets</li>
+<li>Update Controller Profiles</li>
+<li>Update Cheats</li>
+<li>Update Databases</li>
+<li>Update Shaders</li>
+</ul>
+<hr />
+<h2 id="emulator-cores">Emulator Cores<a class="headerlink" href="#emulator-cores" title="Permanent link">🔗</a></h2>
+<p>From the RetroArch main menu, navigate to <code>Online Updater -&gt; Core Downloader</code>.</p>
+<p>These are the cores that I installed.</p>
+<table>
+<thead>
+<tr>
+<th>Console</th>
+<th>Emulator Core</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Boy / Color</td>
+<td>Gambatte</td>
+</tr>
+<tr>
+<td>Game Boy Advance</td>
+<td>gpSP / mGBA</td>
+</tr>
+<tr>
+<td>Nintendo Entertainment System</td>
+<td>Nestopia</td>
+</tr>
+<tr>
+<td>Super Nintendo Entertainment System</td>
+<td>Snes9x</td>
+</tr>
+<tr>
+<td>Sega Genesis</td>
+<td>Genesis Plus GX</td>
+</tr>
+<tr>
+<td>PlayStation</td>
+<td>SwanStation</td>
+</tr>
+</tbody>
+</table>
+<p>These are all recommended by
+RGC's <a href="https://retrogamecorps.com/2022/02/28/retroarch-starter-guide/">RetroArch Starter Guide</a>.</p>
+<p>Why only these systems? This is what I play. I'm a simple man.</p>
+<hr />
+<h2 id="global-retroarch-settings">Global RetroArch Settings<a class="headerlink" href="#global-retroarch-settings" title="Permanent link">🔗</a></h2>
+<p>These settings will be displayed as nested lists. The nesting follows the navigational hierarchy.</p>
+<p>Settings will be displayed as Setting Name: Value</p>
+<p>Notes included when for sections when spelling out the value of every setting is cumbersome.</p>
+<p>If a setting is not listed, a safe assumption is I am using the default.</p>
+<hr />
+<h2 id="user-interface">User Interface<a class="headerlink" href="#user-interface" title="Permanent link">🔗</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Menu Driver</td>
+<td>glui</td>
+</tr>
+<tr>
+<td>Display Overlay</td>
+<td>Off</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="notification-visibility">Notification Visibility<a class="headerlink" href="#notification-visibility" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Notification Type</th>
+<th>Enabled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Input (Autoconfig) Failure Notifications</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Save State Notifications</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Screenshot Notifications</td>
+<td>On</td>
+</tr>
+<tr>
+<td>All Other Notifications</td>
+<td>Off</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="video">Video<a class="headerlink" href="#video" title="Permanent link">🔗</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Driver</td>
+<td>Vulkan</td>
+</tr>
+<tr>
+<td>Integer Scaling</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Aspect Ratio</td>
+<td>Core Provided</td>
+</tr>
+<tr>
+<td>V-Sync</td>
+<td>On</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="audio">Audio<a class="headerlink" href="#audio" title="Permanent link">🔗</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resampler Quality</td>
+<td>Highest</td>
+</tr>
+<tr>
+<td>Menu Sounds</td>
+<td>All Off</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="input">Input<a class="headerlink" href="#input" title="Permanent link">🔗</a></h2>
+<h3 id="retropad-binds-port-1-controls">RetroPad Binds - Port 1 Controls<a class="headerlink" href="#retropad-binds-port-1-controls" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Button</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Start Button</td>
+<td>Button 109 (Top Button)</td>
+</tr>
+<tr>
+<td>Select Button</td>
+<td>Button 108 (Bottom Button)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">My brain likes having <code>Start</code> assigned to the top button.</p>
+</div>
+<hr />
+<h3 id="hotkeys">Hotkeys<a class="headerlink" href="#hotkeys" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Button</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hotkey Enable</td>
+<td>Select <code>[Button 108]</code></td>
+</tr>
+<tr>
+<td>Menu Toggle</td>
+<td>Back Button <code>[Button 4]</code></td>
+</tr>
+<tr>
+<td>Quit (Controller Combo)</td>
+<td>Start + Select</td>
+</tr>
+<tr>
+<td>Fast-Forward (Toggle)</td>
+<td>R1 <code>[Button 103]</code></td>
+</tr>
+<tr>
+<td>Rewind</td>
+<td>L1 <code>[Button 102]</code></td>
+</tr>
+<tr>
+<td>Audio Mute</td>
+<td>D-Pad Down <code>[Hat #0 Down]</code></td>
+</tr>
+<tr>
+<td>Load State</td>
+<td>L2 <code>[Button 104]</code></td>
+</tr>
+<tr>
+<td>Save State</td>
+<td>R2 <code>[Button 105]</code></td>
+</tr>
+<tr>
+<td>Show FPS (Toggle)</td>
+<td>X <code>[Button 99]</code></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition question">
+<p class="admonition-title">Why bind <code>Audio Mute</code>?</p>
+<p>As mentioned earlier, I installed <code>Apple Music</code>. If I want to game and jam out to tunes this hotkey will mute <em>only</em> the emulation sound.</p>
+</div>
+<hr />
+<h3 id="menu-controls">Menu Controls<a class="headerlink" href="#menu-controls" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Menu Swap OK and Cancel Buttons</td>
+<td>Off (Japan style)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="saving">Saving<a class="headerlink" href="#saving" title="Permanent link">🔗</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sort Saves into Folders by Core Name</td>
+<td>Off</td>
+</tr>
+<tr>
+<td>Sort Save States into Folders by Core Name</td>
+<td>Off</td>
+</tr>
+<tr>
+<td>Sort Save into Folders by Content Directory</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Sort Save States into Folders by Content Directory</td>
+<td>On</td>
+</tr>
+<tr>
+<td>SaveRAM compression</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Auto Save State</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Auto Load State</td>
+<td>On</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">🔗</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Save Configuration on Quit</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Save Remap Files on Quit</td>
+<td>On</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="directory">Directory<a class="headerlink" href="#directory" title="Permanent link">🔗</a></h2>
+<table>
+<thead>
+<tr>
+<th>Directory Type</th>
+<th>Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>System/BIOS</td>
+<td><code>SD_CARD/Emulation/BIOS</code></td>
+</tr>
+<tr>
+<td>Save Files</td>
+<td><code>SD_CARD/Emulation/Saves</code></td>
+</tr>
+<tr>
+<td>Save States</td>
+<td><code>SD_CARD/Emulation/Save States</code></td>
+</tr>
+<tr>
+<td>Overlays</td>
+<td><code>SD_CARD/Emulation/Overlays</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="game-boy-game-boy-color">Game Boy / Game Boy Color<a class="headerlink" href="#game-boy-game-boy-color" title="Permanent link">🔗</a></h2>
+<h3 id="core-options">Core Options<a class="headerlink" href="#core-options" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GB Colorization</td>
+<td>Internal</td>
+</tr>
+<tr>
+<td>Internal Palette</td>
+<td>DMG</td>
+</tr>
+<tr>
+<td>Interframe Blending</td>
+<td>LCD Ghosting (Accurate)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="video-scaling">Video Scaling<a class="headerlink" href="#video-scaling" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer Scaling</td>
+<td>Off</td>
+</tr>
+<tr>
+<td>Aspect Ratio</td>
+<td>Core provided</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shaders">Shaders<a class="headerlink" href="#shaders" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Shaders</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Shader Preset</td>
+<td>Shaders Slang &gt; Handheld &gt; lcd3x</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="game-boy-advance">Game Boy Advance<a class="headerlink" href="#game-boy-advance" title="Permanent link">🔗</a></h2>
+<h3 id="core-options_1">Core Options<a class="headerlink" href="#core-options_1" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Color Correction</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Interframe Blending</td>
+<td>On</td>
+</tr>
+</tbody>
+</table>
+<h3 id="video-scaling_1">Video Scaling<a class="headerlink" href="#video-scaling_1" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer Scaling</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Aspect Ratio</td>
+<td>Core provided</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shaders_1">Shaders<a class="headerlink" href="#shaders_1" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Shaders</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Shader Preset</td>
+<td>Shaders Slang &gt; Handheld &gt; lcd3x</td>
+</tr>
+</tbody>
+</table>
+<h3 id="on-screen-overlay">On-Screen Overlay<a class="headerlink" href="#on-screen-overlay" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Display Overlay</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Autoload Preferred Overlay</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Overlay Preset</td>
+<td>gba-retroid-classic-integer-scale-rainbow</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="nintendo-entertainment-system">Nintendo Entertainment System<a class="headerlink" href="#nintendo-entertainment-system" title="Permanent link">🔗</a></h2>
+<h3 id="video-scaling_2">Video Scaling<a class="headerlink" href="#video-scaling_2" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer Scaling</td>
+<td>Off</td>
+</tr>
+<tr>
+<td>Aspect Ratio</td>
+<td>Full</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shaders_2">Shaders<a class="headerlink" href="#shaders_2" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Shaders</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Shader Preset</td>
+<td>Shaders Slang &gt; CRT &gt; newpixie-crt.slang</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="super-nintendo-entertainment-system">Super Nintendo Entertainment System<a class="headerlink" href="#super-nintendo-entertainment-system" title="Permanent link">🔗</a></h2>
+<h3 id="video-scaling_3">Video Scaling<a class="headerlink" href="#video-scaling_3" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer Scaling</td>
+<td>Off</td>
+</tr>
+<tr>
+<td>Aspect Ratio</td>
+<td>Full</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shaders_3">Shaders<a class="headerlink" href="#shaders_3" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Shaders</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Shader Preset</td>
+<td>Shaders Slang &gt; CRT &gt; newpixie-crt.slang</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="sega-genesis">Sega Genesis<a class="headerlink" href="#sega-genesis" title="Permanent link">🔗</a></h2>
+<h3 id="video-scaling_4">Video Scaling<a class="headerlink" href="#video-scaling_4" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer Scaling</td>
+<td>Off</td>
+</tr>
+<tr>
+<td>Aspect Ratio</td>
+<td>Full</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shaders_4">Shaders<a class="headerlink" href="#shaders_4" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Shaders</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Shader Preset</td>
+<td>Shaders Slang &gt; CRT &gt; newpixie-crt.slang</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="playstation">PlayStation<a class="headerlink" href="#playstation" title="Permanent link">🔗</a></h2>
+<h3 id="video-scaling_5">Video Scaling<a class="headerlink" href="#video-scaling_5" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer Scaling</td>
+<td>Off</td>
+</tr>
+<tr>
+<td>Aspect Ratio</td>
+<td>Full</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shaders_5">Shaders<a class="headerlink" href="#shaders_5" title="Permanent link">🔗</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Shaders</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Shader Preset</td>
+<td>Shaders Slang &gt; CRT &gt; newpixie-crt.slang</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CC0 1.0 Universal
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.code.copy", "content.code.annotate", "content.tooltips", "navigation.expand", "navigation.indexes", "navigation.path", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
