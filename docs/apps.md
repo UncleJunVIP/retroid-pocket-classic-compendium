@@ -1,4 +1,4 @@
-## Wrangling the Apps 🐂➰🤠
+## Wrangling the Apps
 
 After unboxing and following the initial Retroid-provided setup, I installed the following:
 

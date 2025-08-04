@@ -47,226 +47,240 @@ If a setting is not listed, a safe assumption is I am using the default.
 
 ---
 
-### User Interface
+## User Interface
 
-- Menu Driver: glui
-- On-Screen Notifications
-    - Notification Visibility (Everything Off Except For)
-        - Input (Autoconfig) Failure Notifications
-        - Save State Notifications
-        - Screenshot Notifications
-- On-Screen Overlay
-    - Display Overlay: Off
+| Setting         | Value |
+|-----------------|-------|
+| Menu Driver     | glui  |
+| Display Overlay | Off   |
 
 ---
 
-### Video
+### Notification Visibility
 
-- Output
-    - Video Driver: Vulkan
-- Scaling
-    - Integer Scaling: On
-    - Aspect Ratio: Core Provided
-- Synchronization
-    - V-Sync: On
-
----
-
-### Audio
-
-- Output
-    - Resampler Quality: Highest
-- Menu Sounds (All Off)
+| Notification Type                        | Enabled |
+|------------------------------------------|---------|
+| Input (Autoconfig) Failure Notifications | On      |
+| Save State Notifications                 | On      |
+| Screenshot Notifications                 | On      |
+| All Other Notifications                  | Off     |
 
 ---
 
-### Input
+## Video
 
-- RetroPad Binds
-    - Port 1 Controls
-        - Start Button: Button 109 (Top Button, defaults as Select)
-            - I like the Start Button on top. Sue me.
-        - Select Button: Button 108 (Bottom Button, defaults as Start)
-- Hotkeys
-    - Hotkey Enable: Select [Button 108] (Bottom Button that defaults as Start)
-    - Menu Toggle: Back Button [Button 4]
-    - Quit (Controller Combo): Start + Select
-    - Fast-Forward (Toggle): R1 [Button 103]
-    - Rewind: L1 [Button 102]
-    - Load State: L2 [Button 104]
-    - Save State: R2 [Button 105]
-    - Show FPS (Toggle): X [Button 99]
-- Menu Controls
-    - Menu Swap OK and Cancel Buttons: Off (Japan style. A = Select / Confirm, B = Back)
+| Setting         | Value         |
+|-----------------|---------------|
+| Video Driver    | Vulkan        |
+| Integer Scaling | On            |
+| Aspect Ratio    | Core Provided |
+| V-Sync          | On            |
 
 ---
 
-### Saving
+## Audio
 
-- Sort Saves into Folders by Core Name: Off
-- Sort Save States into Folders by Core Name: Off
-- Sort Save into Folders by Content Directory: On
-- Sort Save States into Folders by Content Directory: On
-- SaveRAM compression: On
-- Auto Save State: On
-- Auto Load State: On
-
-!!! info "Saving Notes"
-
-    These first four options make it so RetroArch behaves like my beloved NextUI.
-
-    Auto Save / Load allows you to quit with Start + Select and not worry!
-    A save state will be made on quit and loaded on start. Seamless!
+| Setting           | Value   |
+|-------------------|---------|
+| Resampler Quality | Highest |
+| Menu Sounds       | All Off |
 
 ---
 
-### Configuration
+## Input
 
-- Save Configuration on Quit: On
-- Save Remap Files on Quit: On
+### RetroPad Binds - Port 1 Controls
 
----
-
-#### Directory
-
-- System/BIOS: `SD_CARD/Emulation/BIOS`
-- Save Files: `SD_CARD/Emulation/Saves`
-- Save States: `SD_CARD/Emulation/Save States`
-- Overlays: `SD_CARD/Emulation/Overlays`
-
-!!! info "Directory Notes"
-
-    This again is to NextUI-ify this Android setup.
-    I also have ES-DE pointed at `SD_CARD/Emulation/ROMs` for games.
-
-    Why are all these directories under `Emulation`? Good question!
-    
-    Android is silly with file permissions for non-rooted devices.
-    This scheme allows you to expose your content via Primitive FTPd.
+| Control       | Button                     |
+|---------------|----------------------------|
+| Start Button  | Button 109 (Top Button)    |
+| Select Button | Button 108 (Bottom Button) |
 
 ---
 
-### Game Boy / Game Boy Color
+### Hotkeys
 
-#### Core Options
-
-- GB Colorization: Internal
-- Internal Palette: DMG
-- Interframe Blending: LCD Ghosting (Accurate)
-
-#### Video -> Scaling
-
-- Integer Scaling: Off
-- Aspect Ratio: Core provided
-
-#### Shaders
-
-- Video Shaders: On
-- Load Preset
-    - Shaders Slang
-        - Handheld
-            - lcd3x
+| Function                | Button                   |
+|-------------------------|--------------------------|
+| Hotkey Enable           | Select `[Button 108]`    |
+| Menu Toggle             | Back Button `[Button 4]` |
+| Quit (Controller Combo) | Start + Select           |
+| Fast-Forward (Toggle)   | R1 `[Button 103]`        |
+| Rewind                  | L1 `[Button 102]`        |
+| Load State              | L2 `[Button 104]`        |
+| Save State              | R2 `[Button 105]`        |
+| Show FPS (Toggle)       | X `[Button 99]`          |
 
 ---
 
-### Game Boy Advance
+### Menu Controls
 
-#### Core Options
-
-- Color Correction: On
-- Interframe Blending: On
-
-#### Video -> Scaling
-
-- Integer Scaling: On
-- Aspect Ratio: Core provided
-
-#### Shaders
-
-- Video Shaders: On
-- Load Preset
-    - Shaders Slang
-        - Handheld
-            - lcd3x
-
-#### On-Screen Overlay
-
-- Display Overlay: On
-- Autoload Preferred Overlay: On
-- Overlay
-  Preset: [gba-retroid-classic-integer-scale-rainbow](https://github.com/timbueno/retroid-pocket-classic-overlays/blob/main/retroid-classic-gba-overlays/gba-retroid-classic-integer-scale-rainbow.png)
-    - Thanks, [@timbueno](https://github.com/timbueno)!
-
-```
-Bueno's overlays are vendored here for completeness.
-```
+| Setting                         | Value             |
+|---------------------------------|-------------------|
+| Menu Swap OK and Cancel Buttons | Off (Japan style) |
 
 ---
 
-### Nintendo Entertainment System
+## Saving
 
-#### Video -> Scaling
-
-- Integer Scaling: Off
-- Aspect Ratio: Full (The RPC's aspect ratio is close enough)
-
-#### Shaders
-
-- Video Shaders: On
-- Load Preset
-    - Shaders Slang
-        - CRT
-            - newpixie-crt.slang
+| Setting                                            | Value |
+|----------------------------------------------------|-------|
+| Sort Saves into Folders by Core Name               | Off   |
+| Sort Save States into Folders by Core Name         | Off   |
+| Sort Save into Folders by Content Directory        | On    |
+| Sort Save States into Folders by Content Directory | On    |
+| SaveRAM compression                                | On    |
+| Auto Save State                                    | On    |
+| Auto Load State                                    | On    |
 
 ---
 
-### Super Nintendo Entertainment System
+## Configuration
 
-#### Video -> Scaling
-
-- Integer Scaling: Off
-- Aspect Ratio: Full (The RPC's aspect ratio is close enough)
-
-#### Shaders
-
-- Video Shaders: On
-- Load Preset
-    - Shaders Slang
-        - CRT
-            - newpixie-crt.slang
+| Setting                    | Value |
+|----------------------------|-------|
+| Save Configuration on Quit | On    |
+| Save Remap Files on Quit   | On    |
 
 ---
 
-### Sega Genesis
+## Directory
 
-#### Video -> Scaling
-
-- Integer Scaling: Off
-- Aspect Ratio: Full (The RPC's aspect ratio is close enough)
-
-#### Shaders
-
-- Video Shaders: On
-- Load Preset
-    - Shaders Slang
-        - CRT
-            - newpixie-crt.slang
+| Directory Type | Path                            |
+|----------------|---------------------------------|
+| System/BIOS    | `SD_CARD/Emulation/BIOS`        |
+| Save Files     | `SD_CARD/Emulation/Saves`       |
+| Save States    | `SD_CARD/Emulation/Save States` |
+| Overlays       | `SD_CARD/Emulation/Overlays`    |
 
 ---
 
-### PlayStation
+## Game Boy / Game Boy Color
 
-#### Video -> Scaling
+### Core Options
 
-- Integer Scaling: Off
-- Aspect Ratio: Full (The RPC's aspect ratio is close enough)
+| Setting             | Value                   |
+|---------------------|-------------------------|
+| GB Colorization     | Internal                |
+| Internal Palette    | DMG                     |
+| Interframe Blending | LCD Ghosting (Accurate) |
 
-#### Shaders
+### Video Scaling
 
-- Video Shaders: On
-- Load Preset
-    - Shaders Slang
-        - CRT
-            - newpixie-crt.slang
+| Setting         | Value         |
+|-----------------|---------------|
+| Integer Scaling | Off           |
+| Aspect Ratio    | Core provided |
+
+### Shaders
+
+| Setting       | Value                            |
+|---------------|----------------------------------|
+| Video Shaders | On                               |
+| Shader Preset | Shaders Slang > Handheld > lcd3x |
 
 ---
+
+## Game Boy Advance
+
+### Core Options
+
+| Setting             | Value |
+|---------------------|-------|
+| Color Correction    | On    |
+| Interframe Blending | On    |
+
+### Video Scaling
+
+| Setting         | Value         |
+|-----------------|---------------|
+| Integer Scaling | On            |
+| Aspect Ratio    | Core provided |
+
+### Shaders
+
+| Setting       | Value                            |
+|---------------|----------------------------------|
+| Video Shaders | On                               |
+| Shader Preset | Shaders Slang > Handheld > lcd3x |
+
+### On-Screen Overlay
+
+| Setting                    | Value                                     |
+|----------------------------|-------------------------------------------|
+| Display Overlay            | On                                        |
+| Autoload Preferred Overlay | On                                        |
+| Overlay Preset             | gba-retroid-classic-integer-scale-rainbow |
+
+---
+
+## Nintendo Entertainment System
+
+### Video Scaling
+
+| Setting         | Value |
+|-----------------|-------|
+| Integer Scaling | Off   |
+| Aspect Ratio    | Full  |
+
+### Shaders
+
+| Setting       | Value                                    |
+|---------------|------------------------------------------|
+| Video Shaders | On                                       |
+| Shader Preset | Shaders Slang > CRT > newpixie-crt.slang |
+
+---
+
+## Super Nintendo Entertainment System
+
+### Video Scaling
+
+| Setting         | Value |
+|-----------------|-------|
+| Integer Scaling | Off   |
+| Aspect Ratio    | Full  |
+
+### Shaders
+
+| Setting       | Value                                    |
+|---------------|------------------------------------------|
+| Video Shaders | On                                       |
+| Shader Preset | Shaders Slang > CRT > newpixie-crt.slang |
+
+---
+
+## Sega Genesis
+
+### Video Scaling
+
+| Setting         | Value |
+|-----------------|-------|
+| Integer Scaling | Off   |
+| Aspect Ratio    | Full  |
+
+### Shaders
+
+| Setting       | Value                                    |
+|---------------|------------------------------------------|
+| Video Shaders | On                                       |
+| Shader Preset | Shaders Slang > CRT > newpixie-crt.slang |
+
+---
+
+## PlayStation
+
+### Video Scaling
+
+| Setting         | Value |
+|-----------------|-------|
+| Integer Scaling | Off   |
+| Aspect Ratio    | Full  |
+
+### Shaders
+
+| Setting       | Value                                    |
+|---------------|------------------------------------------|
+| Video Shaders | On                                       |
+| Shader Preset | Shaders Slang > CRT > newpixie-crt.slang |
+
