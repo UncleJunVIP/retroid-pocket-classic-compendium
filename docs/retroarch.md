@@ -96,6 +96,8 @@ If a setting is not listed, a safe assumption is I am using the default.
 | Start Button  | Button 109 (Top Button)    |
 | Select Button | Button 108 (Bottom Button) |
 
+!!! note "My brain likes having `Start` assigned to the top button."
+
 ---
 
 ### Hotkeys
