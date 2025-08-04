@@ -55,6 +55,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.blocks.caption
   - toc:
       toc_depth: 3
       permalink: 🔗
@@ -68,3 +69,4 @@ nav:
   - The Apps: apps.md
   - Configuring RetroArch: retroarch.md
   - Configuring ES-DE: esde.md
+  - Gallery: gallery.md
